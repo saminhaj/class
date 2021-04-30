@@ -1,0 +1,104 @@
+.header{
+    background-color: #f5f5f5;
+}
+.header-icon{}
+.header-icon a {
+	text-decoration: none;
+}
+.header-icon a h2 {
+	margin-bottom: 0;
+	line-height: 66px;
+}
+.primary-menu{}
+.primary-menu ul {
+	text-align: right;
+    margin-bottom:0 ;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+	display: inline-block;
+	padding: 0 27px;
+	font-size: 20px;
+	text-decoration: none;
+	line-height: 66px;
+}
+.primary-menu ul li a:hover{}
+
+
+.banner{
+    background: url(https://i.ibb.co/rkxKy06/178934873-455404502228845-6544367562530705105-n.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h2{
+    font-size: 40px;
+    color: #fff;
+}
+
+.about{
+    padding: 50px 0;
+}
+.about-left h2 {
+	font-size: 20px;
+}
+.about-left p {
+	padding-top: 36px;
+}
+
+.contact {
+	background: #f5f3f3;
+	padding: 50px 0;
+}
+.contact-form label {
+	padding: 20p;
+	padding-left: 4px;
+	padding-bottom: 0;
+}
+.contact-form input {
+	width: 100%;
+	border: 2px solid #ddd;
+	padding: 5px;
+	padding-left: 20px;
+	border-radius: 4px;
+	background: #fff;
+}
+.contact-form textarea {
+	height: 117px;
+	width: 100%;
+	border: 2px solid #ddd;
+	border-radius: 4px;
+}
+.btn {
+	background: #5abfdd;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.footer {
+	background-color: #0062d3;
+	padding: 20px 0;
+}
+.footer h4 {
+	color: #fff;
+	width: 31%;
+	text-align: center;
+	font-size: 20px;
+	margin: auto;
+}
